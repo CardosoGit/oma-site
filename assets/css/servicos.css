@@ -1,0 +1,159 @@
+.title-service{
+	width: 100%;
+	padding: 20px 0;
+	background-color: white;
+	color: #326599;
+	border: 5px solid #326599;
+	border-left: none;
+	border-right: none;
+}
+#consumer-services div:nth-child(1){
+	padding:50px 50px 50px 15px;
+}
+#consumer-services div:nth-child(1) h2{
+	color: #326599;
+	margin-bottom: 50px;
+}
+#consumer-services div:nth-child(1) h3{
+	color: #326599;
+}
+#consumer-services div:nth-child(1):first-child p, #consumer-services ul{
+	text-align:justify; 
+	color:#777; 
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#consumer-services div:nth-child(1) p:last-child{
+	font-size:20px; 
+	color:#777; 
+	margin:0;
+	padding:10px;
+	float:left;
+}
+#consumer-services div:nth-child(1) div{
+	justify-content: space-between;
+	background-color: #eee;
+	padding: 25px;
+}
+#consumer-services div:nth-child(1) div > span:nth-child(1){
+	font-size:15px;
+	font-weight:bold;  
+	color: #777;
+	margin-top: 7px;
+}
+#consumer-services div:nth-child(1) div > span:nth-child(2){
+	font-size:25px;
+	font-weight:bold; 
+	color:orange; 
+}
+#consumer-services div:nth-child(2){
+	background-color:#eee; 
+	border-top:20px dashed #326599;
+	border-radius: 0 0 30px 30px; 
+	margin:10px 0;
+	padding: 30px 15px;
+}
+
+footer p, footer b, #mais-links a, footer h4{
+	color:#eee;
+}
+.btn-success{
+   background: white;
+   margin-bottom: 10px;
+   border-radius: 0;
+   background: #326599;
+   color: white;
+   border-color: #326599;
+}
+.btn-success:hover{
+	margin-bottom: 10px;
+	background: white;
+ 	border-radius: 0;
+ 	border-color: #F58634;
+ 	color: #F58634;
+ 	border:1px solid #F58634;
+}
+.btn-success:focus{
+	margin-bottom: 10px;
+	background: white;
+ 	border-radius: 0;
+ 	border-color: #F58634;
+ 	color: #F58634;
+ 	border:1px solid #F58634;
+}
+
+
+#consumer-services > div.col-md-4 > span{
+	position: absolute;
+	left: 90px;
+	font-weight: bold;
+}
+#comprar,#consumer-services > div.col-md-4 > b{
+	text-align: center;
+}
+#consumer-services > div.col-md-8 > a{
+ 	display: none;
+ 	margin:20px 0;
+ }
+ #oma-navbar > button{
+ 	margin-bottom: 10px;
+ 	border-radius: 0;
+ 	border-color: #326599;
+ 	color: #326599;
+ }
+ #oma-navbar > button:hover{
+ 	margin-bottom: 10px;
+ 	border-radius: 0;
+ 	background: #326599;
+ 	color: white;
+ }
+ #top-bar a{ 	
+  	color: #395E9E;
+ }
+ #top-bar > div:nth-child(2) > span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #395E9E;
+}
+#top-bar div:nth-child(2) > b {
+    color: #F39C12;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#comprar_agora > h2{
+	color: #326599;
+	text-align: center;
+}
+#comprar_agora > b{
+	display: block;
+    font-size: 30px;
+    color: #326599;
+}
+#top-bar {
+    justify-content: flex-end;
+}
+#top-bar > div:nth-child(2){
+	margin-right: 50px;
+}
+#consumer-services > div.col-md-4 > h2{
+		color: #326599;
+		text-align: center;
+	
+}
+#links  a{
+	color: white;
+}
+
+@media only screen and (max-width: 480px) {
+
+ #consumer-services div:nth-child(1) div {
+    
+     flex-direction: column;
+ }
+ #consumer-services div:nth-child(1) {
+     padding: 50px 15px 50px 15px;
+ } 
+ #consumer-services > div.col-md-8 > a{
+ 	display: block;
+ }
+}

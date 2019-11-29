@@ -1,0 +1,121 @@
+::selection {
+  background-color: #b5e2e7;
+}
+
+::-moz-selection {
+  background-color: #8ac7d8;
+}
+
+#logbox, #mapbox {
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  margin: 50px auto;
+  max-width: 340px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);;
+}
+
+#logbox h1 {
+  text-align: center;
+  font-size: 175%;
+  color: #385E9D;
+  font-weight: 300;
+}
+
+#logbox h2 {
+  text-align: center;
+  font-size: 140%;
+  color: #385E9D;
+  font-weight: 300;
+}
+
+#logbox h1, input {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#logbox .input , #logbox .textarea {
+  display: block;
+  width: 75%;
+  height: 50px;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+#logbox .input:focus, #logbox .textarea:focus {
+  outline: none;
+  border-bottom-color: #3CC !important;
+}
+#logbox .input:hover,  #logbox .textarea:hover {
+  border-bottom-color: #dcdcdc;
+}
+#logbox .input:invalid, #logbox .textarea:invalid {
+  box-shadow: none;
+}
+
+#logbox .pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+#logbox .textarea{
+  height: 100px;
+}
+.inputButton {
+  position: relative;
+  width: 85%;
+  height: 50px;
+  display: block;
+  margin: 30px auto 30px;
+  color: white;
+  background-color: #395E9C;
+  border: none;
+  -webkit-box-shadow: 0 5px 0 #153B5A;
+  -moz-box-shadow: 0 5px 0 #2CADAD;
+  box-shadow: 0 5px 0 #153B5A;
+  line-height: 50px;
+  text-align: center;
+}
+.inputButton:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #153B5A;
+  -moz-box-shadow: 0 3px 0 #2CADAD;
+  box-shadow: 0 3px 0 #153B5A;
+  color: white;
+}
+.inputButton:active{
+  top: 5px;
+  box-shadow: none;
+}
+.inputButton:focus {
+  outline: none;
+}
+
+/*Radios*/
+.radio-group, .checkbox-group{
+  width: 75%;
+  padding: 0 15px 15px 15px;
+  color: #B1AEAB; 
+  border-bottom: 2px solid #ebebeb;
+  margin: 0 auto;
+
+}
+.radio-group-head{
+  display: block;
+  
+}
+.item-radio{
+  padding-left: 15px;
+
+}
+
+/*Fim Radios*/
+
+.inline-group{
+  display: flex;
+
+}
+
+#mapbox{
+  max-width: none;
+  height: 60vh;
+}

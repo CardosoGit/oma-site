@@ -1,0 +1,25 @@
+.slide-box{
+	overflow:hidden;
+	/*width: 320px;*/
+}
+.slide-content{
+	/*width: 640px;*/
+	/*display: flex;*/
+}
+.item-slide{
+	/*width: 320px;*/
+}
+#logbox.login{
+	opacity: 0;
+}
+#login-error, #pass-error{
+	display: none;
+	margin-left: 7.5%;
+}
+.voltar{
+	margin-left: 7.5%;
+	background: none;
+    border: none;
+    padding: 5px 10px;
+    color: #31708f;
+}

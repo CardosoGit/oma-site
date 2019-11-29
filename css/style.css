@@ -1,0 +1,1515 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*INICIO HEADER*/
+
+hr {
+  width: 80%;
+  opacity: 0.5;
+}
+
+header {
+  background: url(home-banner.jpg);
+}
+
+#template-header {
+  border-bottom: 1px solid #BAC8DD;
+  background: ghostwhite;
+}
+
+#topo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.brand img {
+  max-width: 350px;
+  min-width: 250px;
+  width: 100%;
+}
+
+.telefone {
+  display: flex;
+  flex-direction: column;
+  line-height: 19px;
+  color: #395F9E;
+}
+
+.telefone > span {
+  font-size: 26px;
+  color: #F58634;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.btn-menu {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#head-cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 170px;
+  font-size: 30px;
+  color: #B2BFD4;
+}
+
+#head-cta span {
+  color: #395F9E;
+  font-weight: bold;
+}
+
+.head-cta-btn {
+  background: #31c231;
+  color: white;
+  padding: 10px 42px;
+  font-size: 1em;
+  opacity: 0.8;
+}
+
+.head-cta-btn:hover {
+  background: white;
+  color: #31c231;
+  border: 1px solid #31c231;
+}
+
+.cta-ligue-me {
+  background: #395F9E;
+  color: white;
+  padding: 10px 0;
+}
+
+.cta-ligue-me input {
+  color: #395F9E;
+  border: none;
+  padding-left: 17px;
+}
+
+.cta-ligue-me button {
+  border: none;
+  background: #F58634;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 10px;
+  padding: 5px;
+  border-bottom: 1px solid azure;
+}
+
+
+/*FIM HEADER*/
+
+
+/*INICIO CONTENT*/
+
+.cta-bottom {
+  border: none;
+  padding: 20px 30px;
+  background: #31C231;
+  color: white;
+  margin: 90px;
+  border: 1px solid #31C231;
+  font-size: 1.5em;
+  ;
+}
+
+.cta-bottom:hover {
+  color: #31C231;
+  background: white;
+  border: 1px solid #31C231;
+}
+
+
+/*FIM CONTENT*/
+
+
+/*INICIO FOOTER*/
+
+footer h3 {
+  color: #395f9e;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  font-size: 18px;
+  color: #666666;
+}
+
+footer ul li a {
+  font-size: 18px;
+  color: #666666;
+}
+
+#busca-servico input {
+  height: 50px;
+  font-style: italic;
+  padding-left: 5px;
+  border: 1px solid #cccccc;
+  font-size: 20px;
+}
+
+#busca-servico button {
+  border: none;
+  background: #395F9E;
+  color: white;
+  font-size: 20px;
+  padding: 0 10px;
+  ;
+  ;
+}
+
+footer .social {
+  color: #666666;
+}
+
+footer .social ul {
+  margin-top: 20px;
+}
+
+footer .social ul li {
+  ;
+  display: inline;
+}
+
+footer .social ul li a {
+  margin-right: 10px;
+  border-radius: 100%;
+  color: #395F9E;
+  font-size: 30px;
+}
+
+
+/*FIM FOOTER*/
+
+
+/*Classes*/
+
+.flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+/*Fim Classes*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+h1 {
+  color: #365F9C;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-top-margin {
+  margin-top: 75px;
+}
+
+.main-low-margin {
+  margin-top: 55px;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+
+.img-margin-product {
+  margin-top: 30px;
+}
+
+.bottam-pad {
+  padding-bottom: 40px;
+}
+
+
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+  color: #ff0000;
+}
+
+.color-green {
+  color: #07BB00;
+}
+
+.color-light-blue {
+  color: #BB00BB;
+}
+
+.color-blue {
+  color: #4966A0;
+}
+
+.color-brown {
+  color: #EB8F2D;
+}
+
+.color-black {
+  color: #000000;
+}
+
+
+/* ==========================================================================
+   ABOUT SECTION
+   ========================================================================== */
+
+#about-section {
+  background-color: #FAFAFA;
+}
+
+
+/* ==========================================================================
+   PRICE SECTION
+   ========================================================================== */
+
+#price-section {
+  background-color: #FAFAFA;
+}
+
+
+/* PRICE TABLES */
+
+.pricing {
+  padding-bottom: 40px;
+}
+
+.pricing .pricing-head {
+  position: relative;
+  background: #FF7F50;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding: 50px 20px 20px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.special .pricing-head {
+  background: black;
+}
+
+.pricing .price {
+  display: inline-block;
+  position: relative;
+}
+
+.pricing .price sup {
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  font-size: 24px;
+}
+
+.pricing .price .price-amount {
+  font-size: 108px;
+  letter-spacing: -4px;
+}
+
+.pricing .price small {
+  position: relative;
+  left: -10px;
+  font-size: 18px;
+}
+
+.pricing ul {
+  list-style: none;
+  margin: 0;
+  background: #eee;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.pricing ul li {
+  border-bottom: solid 1px #e1e1e1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pricing .pricing-grab {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 12px;
+  color: #FFFFFF;
+  background: #23B687;
+}
+
+.backcolor-li {
+  background-color: #BDC9E1;
+}
+
+
+/*==========================================
+   SOCIAL ICON STYLES
+   =====================================================*/
+
+.color-facebook {
+  color: #3B5998;
+}
+
+.color-twitter {
+  color: #00aced;
+}
+
+.color-google-plus {
+  color: #dd4b39;
+}
+
+.color-linkedin {
+  color: #007bb6;
+}
+
+.color-pinterest {
+  color: #cb2027;
+}
+
+
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.navbar-inverse {
+  background: ghostwhite;
+  border-color: honeydew;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #29FF00;
+  font-weight: bolder;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.navbar-brand > img {
+  height: 30px;
+}
+
+.navbar-inverse:hover .navbar-brand:hover {
+  color: #29FF00;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: coral;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #4966A0;
+}
+
+
+/* ==========================================================================
+   CONTACT SECTION
+   ========================================================================== */
+
+#contact-section {
+  background-color: #FAFAFA;
+}
+
+
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+
+#footer {
+  background-color: #FF7F50;
+  color: #fff;
+  text-align: right;
+  padding: 10px 30px 10px 30px;
+}
+
+
+/* ==========================================================================
+   MEDIA QURIES
+   ========================================================================== */
+
+#como-funciona-section, #testemunhos-section {
+  background-color: aliceblue;
+}
+
+#como-funciona-section i {
+  color: coral;
+}
+
+.center-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* ==========================================================================
+   TESTEMUNHOS
+   ========================================================================== */
+
+
+/* carousel */
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+
+/* Control buttons  */
+
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+
+/* Previous button  */
+
+#quote-carousel .carousel-control.left {
+  left: -12px;
+}
+
+
+/* Next button  */
+
+#quote-carousel .carousel-control.right {
+  right: -12px !important;
+}
+
+
+/* Changes the position of the indicators */
+
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+
+/* Changes the color of the indicators */
+
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+}
+
+#quote-carousel img {
+  width: 250px;
+  height: 100px
+}
+
+
+/* End carousel */
+
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.item blockquote img {
+  margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+
+
+/* ==========================================================================
+   FAQ
+   ========================================================================== */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#integration-list {
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+}
+
+#integration-list ul {
+  padding: 0;
+  margin: 20px 0;
+  color: #555;
+}
+
+#integration-list ul > li {
+  list-style: none;
+  border-top: 1px solid #ddd;
+  display: block;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#integration-list ul:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+#integration-list ul > li:hover {
+  background: #efefef;
+}
+
+.expand {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#left, #right {
+  display: table;
+}
+
+#sup {
+  display: table-cell;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.detail a {
+  text-decoration: none;
+  color: #C0392B;
+  border: 1px solid #C0392B;
+  padding: 6px 10px 5px;
+  font-size: 14px;
+}
+
+.detail {
+  margin: 10px 0 10px 0px;
+  display: none;
+  line-height: 22px;
+}
+
+.detail span {
+  margin: 0;
+}
+
+.right-arrow {
+  margin-top: 12px;
+  margin-left: 20px;
+  width: 10px;
+  height: 100%;
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icon {
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+#equip>div>div {
+  padding: 10px;
+  margin: 30px 0;
+  background: white;
+  box-shadow: 0 1px 5px #326599;
+}
+
+#equip h2 {
+  color: #385E9D;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/*Serviços*/
+
+.sintoma {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 0 30px 30px 0;
+}
+
+.sintoma h2 {
+  color: #365F9C;
+  font-size: 20px;
+  float: left;
+}
+
+.funkyradio div {
+  clear: both;
+  overflow: hidden;
+}
+
+.funkyradio label {
+  width: 100%;
+  font-weight: normal;
+  font-size: 20px;
+  padding-right: 10px;
+  color: #365F9C;
+  ;
+  /* border: 1px solid #365F9C; */
+  ;
+}
+
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+  display: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+  position: relative;
+  line-height: 2.5em;
+  cursor: pointer;
+  text-indent: 3.25em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: rgba(54, 95, 156, 0.15);
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+  color: #365F9C;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+  color: #ddd;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+  box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #365F9C;
+}
+
+#bar-show-price {
+  z-index: 999;
+  font-size: 20px;
+  right: 0px;
+  background: rgba(54, 95, 156, 0.34);
+  height: auto;
+  width: 300px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  bottom: 0px;
+  position: fixed;
+  ;
+}
+
+#bar-show-price strong {
+  color: #326599;
+  padding: 10px;
+  background: seashell;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  ;
+  ;
+}
+
+
+/*Fim Serviços*/
+
+
+/*Finaliza Compra*/
+
+.form {
+  width: 300px;
+  padding: 15px;
+  background: grey;
+  margin-top: 50px;
+}
+
+.form label {
+  color: #FFFFFF;
+}
+
+.form h2 {
+  font-size: 20px;
+  background-color: #808080;
+  padding: 10px;
+  margin-left: -15px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.form button {
+  background: #395F9E;
+  border-color: azure;
+  font-size: 25px;
+}
+
+.form button:hover, .form button:active {
+  background: #326599;
+  border-color: azure;
+}
+
+.float-banner {
+  position: absolute;
+  margin-top: 170px;
+  right: 10%;
+  top: 0px;
+  z-index: 999;
+}
+
+#topo-show-price {
+  margin-top: 20%;
+}
+
+#topo-show-price h1 {
+  text-align: center;
+  padding-right: 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+
+#topo-show-price b {
+  display: block;
+  font-size: 50px;
+  padding: 10px;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  ;
+}
+
+#topo-show-price span {
+  position: absolute;
+  font-size: 15px;
+  bottom: -23px;
+  left: -50%;
+  color: #FFFFFF;
+  right: -50%;
+}
+
+
+/*FIM Finaliza Compra*/
+
+#wizard:after {
+  content: "";
+  height: 10px;
+}
+
+.indique-amigo {
+  background: aliceblue;
+  padding: 20px;
+  color: #0F497B;
+  border: 1px solid #0E4879;
+  font-weight: bold;
+}
+
+.indique-amigo:hover {
+  color: aliceblue;
+  background: #0E487A;
+}
+
+
+/* -------------------------------- 
+
+Basic Style
+
+-------------------------------- */
+
+.cd-breadcrumb, .cd-multi-steps {
+  width: 90%;
+  max-width: 768px;
+  padding: 0.5em 1em;
+  margin: 1em auto;
+  background-color: #edeff0;
+  border-radius: .25em;
+}
+
+.cd-breadcrumb:after, .cd-multi-steps:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-breadcrumb li, .cd-multi-steps li {
+  display: inline-block;
+  float: left;
+  margin: 0.5em 0;
+}
+
+.cd-breadcrumb li::after, .cd-multi-steps li::after {
+  /* this is the separator between items */
+  display: inline-block;
+  content: '\00bb';
+  margin: 0 .6em;
+  color: #959fa5;
+}
+
+.cd-breadcrumb li:last-of-type::after, .cd-multi-steps li:last-of-type::after {
+  /* hide separator after the last item */
+  display: none;
+}
+
+.cd-breadcrumb li > *, .cd-multi-steps li > * {
+  /* single step */
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #2c3f4c;
+}
+
+.cd-breadcrumb li.current > *, .cd-multi-steps li.current > * {
+  /* selected step */
+  color: #96c03d;
+}
+
+.no-touch .cd-breadcrumb a:hover, .no-touch .cd-multi-steps a:hover {
+  /* steps already visited */
+  color: #96c03d;
+}
+
+.cd-breadcrumb.custom-separator li::after, .cd-multi-steps.custom-separator li::after {
+  /* replace the default arrow separator with a custom icon */
+  content: '';
+  height: 16px;
+  width: 16px;
+  background: url(../img/cd-custom-separator.svg) no-repeat center center;
+  vertical-align: middle;
+}
+
+.cd-breadcrumb.custom-icons li > *::before, .cd-multi-steps.custom-icons li > *::before {
+  /* add a custom icon before each item */
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: .4em;
+  margin-top: -2px;
+  background: url(../img/cd-custom-icons-01.svg) no-repeat 0 0;
+  vertical-align: middle;
+}
+
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(2) > *::before {
+  /* change custom icon using image sprites */
+  background-position: -20px 0;
+}
+
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(3) > *::before {
+  background-position: -40px 0;
+}
+
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(4) > *::before {
+  background-position: -60px 0;
+}
+
+.cd-breadcrumb.custom-icons li.current:first-of-type > *::before, .cd-multi-steps.custom-icons li.current:first-of-type > *::before {
+  /* change custom icon for the current item */
+  background-position: 0 -20px;
+}
+
+.cd-breadcrumb.custom-icons li.current:nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(2) > *::before {
+  background-position: -20px -20px;
+}
+
+.cd-breadcrumb.custom-icons li.current:nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(3) > *::before {
+  background-position: -40px -20px;
+}
+
+.cd-breadcrumb.custom-icons li.current:nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(4) > *::before {
+  background-position: -60px -20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-breadcrumb, .cd-multi-steps {
+    padding: 0 1.2em;
+  }
+  .cd-breadcrumb li, .cd-multi-steps li {
+    margin: 1.2em 0;
+  }
+  .cd-breadcrumb li::after, .cd-multi-steps li::after {
+    margin: 0 1em;
+  }
+  .cd-breadcrumb li > *, .cd-multi-steps li > * {
+    font-size: 1.6rem;
+  }
+}
+
+
+/* -------------------------------- 
+
+Triangle breadcrumb
+
+-------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .cd-breadcrumb.triangle {
+    /* reset basic style */
+    background-color: transparent;
+    padding: 0;
+  }
+  .cd-breadcrumb.triangle li {
+    position: relative;
+    padding: 0;
+    margin: 4px 4px 4px 0;
+  }
+  .cd-breadcrumb.triangle li:last-of-type {
+    margin-right: 0;
+  }
+  .cd-breadcrumb.triangle li > * {
+    position: relative;
+    padding: 1em .8em 1em 2.5em;
+    color: #2c3f4c;
+    background-color: #edeff0;
+    /* the border color is used to style its ::after pseudo-element */
+    border-color: #edeff0;
+  }
+  .cd-breadcrumb.triangle li.current > * {
+    /* selected step */
+    color: #ffffff;
+    background-color: #96c03d;
+    border-color: #96c03d;
+  }
+  .cd-breadcrumb.triangle li:first-of-type > * {
+    padding-left: 1.6em;
+    border-radius: .25em 0 0 .25em;
+  }
+  .cd-breadcrumb.triangle li:last-of-type > * {
+    padding-right: 1.6em;
+    border-radius: 0 .25em .25em 0;
+  }
+  .no-touch .cd-breadcrumb.triangle a:hover {
+    /* steps already visited */
+    color: #ffffff;
+    background-color: #2c3f4c;
+    border-color: #2c3f4c;
+  }
+  .cd-breadcrumb.triangle li::after, .cd-breadcrumb.triangle li > *::after {
+    /* 
+      li > *::after is the colored triangle after each item
+      li::after is the white separator between two items
+      */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    content: '';
+    height: 0;
+    width: 0;
+    /* 48px is the height of the <a> element */
+    border: 24px solid transparent;
+    border-right-width: 0;
+    border-left-width: 20px;
+  }
+  .cd-breadcrumb.triangle li::after {
+    /* this is the white separator between two items */
+    z-index: 1;
+    -webkit-transform: translateX(4px);
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -o-transform: translateX(4px);
+    transform: translateX(4px);
+    border-left-color: #ffffff;
+    /* reset style */
+    margin: 0;
+  }
+  .cd-breadcrumb.triangle li > *::after {
+    /* this is the colored triangle after each element */
+    z-index: 2;
+    border-left-color: inherit;
+  }
+  .cd-breadcrumb.triangle li:last-of-type::after, .cd-breadcrumb.triangle li:last-of-type > *::after {
+    /* hide the triangle after the last step */
+    display: none;
+  }
+  .cd-breadcrumb.triangle.custom-separator li::after {
+    /* reset style */
+    background-image: none;
+  }
+  .cd-breadcrumb.triangle.custom-icons li::after, .cd-breadcrumb.triangle.custom-icons li > *::after {
+    /* 50px is the height of the <a> element */
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+  }
+  @-moz-document url-prefix() {
+    .cd-breadcrumb.triangle li::after, .cd-breadcrumb.triangle li > *::after {
+      /* fix a bug on Firefix - tooth edge on css triangle */
+      border-left-style: dashed;
+    }
+  }
+}
+
+
+/* -------------------------------- 
+
+Custom icons hover effects - breadcrumb and multi-steps
+
+-------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .no-touch .cd-breadcrumb.triangle.custom-icons li:first-of-type a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:first-of-type em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:first-of-type a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:first-of-type em::before {
+    /* change custom icon using image sprites - hover effect or current item */
+    background-position: 0 -40px;
+  }
+  .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(2) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(2) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(2) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(2) em::before {
+    background-position: -20px -40px;
+  }
+  .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(3) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(3) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(3) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(3) em::before {
+    background-position: -40px -40px;
+  }
+  .no-touch .cd-breadcrumb.triangle.custom-icons li:nth-of-type(4) a:hover::before, .cd-breadcrumb.triangle.custom-icons li.current:nth-of-type(4) em::before, .no-touch .cd-multi-steps.text-center.custom-icons li:nth-of-type(4) a:hover::before, .cd-multi-steps.text-center.custom-icons li.current:nth-of-type(4) em::before {
+    background-position: -60px -40px;
+  }
+}
+
+
+/* -------------------------------- 
+
+Multi steps indicator 
+
+-------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .cd-multi-steps {
+    /* reset style */
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+  }
+  .cd-multi-steps li {
+    position: relative;
+    float: none;
+    margin: 0.4em 40px 0.4em 0;
+  }
+  .cd-multi-steps li:last-of-type {
+    margin-right: 0;
+  }
+  .cd-multi-steps li::after {
+    /* this is the line connecting 2 adjacent items */
+    position: absolute;
+    content: '';
+    height: 4px;
+    background: #edeff0;
+    /* reset style */
+    margin: 0;
+  }
+  .cd-multi-steps li.visited::after {
+    background-color: #385E9D;
+  }
+  .cd-multi-steps li > *, .cd-multi-steps li.current > * {
+    position: relative;
+    color: #326599;
+  }
+  .cd-multi-steps.custom-separator li::after {
+    /* reset style */
+    height: 4px;
+    background: #edeff0;
+  }
+  .cd-multi-steps.text-center li::after {
+    width: 100%;
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translateY(-50%) translateX(-1px);
+    -moz-transform: translateY(-50%) translateX(-1px);
+    -ms-transform: translateY(-50%) translateX(-1px);
+    -o-transform: translateY(-50%) translateX(-1px);
+    transform: translateY(-50%) translateX(-1px);
+  }
+  .cd-multi-steps.text-center li > * {
+    z-index: 1;
+    padding: .6em 1em;
+    border-radius: .25em;
+    background-color: #edeff0;
+  }
+  .no-touch .cd-multi-steps.text-center a:hover {
+    background-color: #2c3f4c;
+  }
+  .cd-multi-steps.text-center li.current > *, .cd-multi-steps.text-center li.visited > * {
+    color: #ffffff;
+    background-color: #96c03d;
+  }
+  .cd-multi-steps.text-center.custom-icons li.visited a::before {
+    /* change the custom icon for the visited item - check icon */
+    background-position: 0 -60px;
+  }
+  .cd-multi-steps.text-top li, .cd-multi-steps.text-bottom li {
+    width: 80px;
+    text-align: center;
+  }
+  .cd-multi-steps.text-top li::after, .cd-multi-steps.text-bottom li::after {
+    /* this is the line connecting 2 adjacent items */
+    position: absolute;
+    left: 50%;
+    /* 40px is the <li> right margin value */
+    width: calc(100% + 40px);
+  }
+  .cd-multi-steps.text-top li > *::before, .cd-multi-steps.text-bottom li > *::before {
+    /* this is the spot indicator */
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #edeff0;
+  }
+  .cd-multi-steps.text-top li.visited > *::before, .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.visited > *::before, .cd-multi-steps.text-bottom li.current > *::before {
+    background-color: #385E9D;
+  }
+  .no-touch .cd-multi-steps.text-top a:hover, .no-touch .cd-multi-steps.text-bottom a:hover {
+    color: #96c03d;
+  }
+  .no-touch .cd-multi-steps.text-top a:hover::before, .no-touch .cd-multi-steps.text-bottom a:hover::before {
+    box-shadow: 0 0 0 3px rgba(150, 192, 61, 0.3);
+  }
+  .cd-multi-steps.text-top li::after {
+    /* this is the line connecting 2 adjacent items */
+    bottom: 4px;
+  }
+  .cd-multi-steps.text-top li > * {
+    padding-bottom: 20px;
+  }
+  .cd-multi-steps.text-top li > *::before {
+    /* this is the spot indicator */
+    bottom: 0;
+  }
+  .cd-multi-steps.text-bottom li::after {
+    /* this is the line connecting 2 adjacent items */
+    top: 3px;
+  }
+  .cd-multi-steps.text-bottom li > * {
+    padding-top: 20px;
+  }
+  .cd-multi-steps.text-bottom li > *::before {
+    /* this is the spot indicator */
+    top: 0;
+  }
+}
+
+
+/* -------------------------------- 
+
+Add a counter to the multi-steps indicator 
+
+-------------------------------- */
+
+.cd-multi-steps.count li {
+  counter-increment: steps;
+}
+
+.cd-multi-steps.count li > *::before {
+  content: counter(steps) " - ";
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-multi-steps.text-top.count li > *::before, .cd-multi-steps.text-bottom.count li > *::before {
+    /* this is the spot indicator */
+    content: counter(steps);
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  .cd-multi-steps.text-top.count li:not(.current) em::before, .cd-multi-steps.text-bottom.count li:not(.current) em::before {
+    /* steps not visited yet - counter color */
+    color: #326599;
+  }
+  .cd-multi-steps.text-top.count li::after {
+    bottom: 11px;
+  }
+  .cd-multi-steps.text-top.count li > * {
+    padding-bottom: 34px;
+  }
+  .cd-multi-steps.text-bottom.count li::after {
+    top: 11px;
+  }
+  .cd-multi-steps.text-bottom.count li > * {
+    padding-top: 34px;
+  }
+}
+
+.topo-fixo {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  background: white;
+}
+
+.teste {
+  transition: color 0.5s linear;
+}
+
+#section-obrigado article {
+  color: #0F497A;
+  border: 1px solid rgba(15, 74, 124, 0.28);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(15, 74, 124, 0.08);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#agenda-servico > button {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.desable {
+  background: #ccc;
+  color: #ddd;
+}
+
+.enable {
+  background: #365F9C;
+  color: #FFF5EE;
+}
+
+form#agenda-servico {
+  margin-top: 20px;
+}
+
+
+/**
+  MEDIA QUERIES
+  */
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+  }
+  .img-responsive {
+    max-width: 60%;
+  }
+  #equip > div > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* Small devices (tablets, up to 768px) */
+
+@media (max-width: 768px) {
+  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+  #quote-carousel .carousel-indicators {
+    bottom: -20px !important;
+  }
+  #quote-carousel .carousel-indicators li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px;
+  }
+  #quote-carousel .carousel-indicators li.active {
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+  }
+  #head-cta {
+    flex-direction: column;
+  }
+  #head-cta > div:nth-child(1) {
+    text-align: center;
+  }
+  #head-cta > div:nth-child(2) {
+    margin-top: 20px;
+  }
+  .cta-ligue-me > div > div > div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cta-ligue-me > div > div > div > form {
+    margin-top: 10px;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 560px) {
+  #equip > div > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .img-responsive {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 560px) {
+  h1 {
+    text-align: center;
+  }
+  .telefone {
+    display: none;
+  }
+  .btn-menu {
+    margin-left: 10px;
+  }
+  .cta-bottom {
+    margin: 0;
+    text-align: center;
+  }
+  #busca-servico button {
+    font-size: 1em;
+  }
+  #topo-show-price {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #equip > div > div > div {
+    float: left;
+  }
+  #equip a {
+    float: right;
+    width: 50%;
+    margin-top: 22px;
+  }
+  #equip img {
+    height: 100px;
+  }
+  #equip>div>div {
+    height: 150px;
+  }
+  #bar-show-price {
+    width: 100%;
+    background: #255572;
+  }
+  #bar-show-price strong {
+    width: 20%;
+    float: left;
+    margin-top: 0;
+    min-width: 80px;
+  }
+  #agenda-servico > button {
+    width: 50%;
+    float: right;
+  }
+  #bar-show-price .enable {
+    background: #f88019;
+  }
+  .sintoma > div {
+    align-items: flex-start !important;
+    flex-direction: column;
+  }
+  .sintoma img {
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 41px;
+    min-height: 41px;
+  }
+  .sintoma h2 {
+    line-height: initial;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  #sintomas-selecionados h3 {
+    text-align: center;
+  }
+  #show-price > div {
+    padding: 2px !important;
+  }
+}

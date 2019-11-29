@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://www.oma.inf.br/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/blog/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/quemsomos</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/faleconosco</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://materiais.oma.inf.br/kit-otimizacao-computador</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://materiais.oma.inf.br/guia-primeiros-passos-informatica</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://materiais.oma.inf.br/catalogo-de-servicos-de-informatica</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/formatacao-magica/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/sem-crise/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/virus-zero/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/volta-as-aulas/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.oma.inf.br/instalacao-computador/</loc>
+  <lastmod>2017-09-19T13:33:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>  
+<url>
+  <loc>https://www.oma.inf.br/guia/nobreak-para-que-serve-e-como-pode-salvar-sua-empresa/</loc>
+  <lastmod>2017-12-01T13:33:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>  
+
+</urlset>
